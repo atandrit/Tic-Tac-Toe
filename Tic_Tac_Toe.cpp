@@ -88,9 +88,9 @@ int main()
     } while (i == -1);
     board();
     if (i == 1)
-        cout << "==>\aPlayer " << --player << " win ";
+        cout << "==> Winner: Player " << --player;
     else
-        cout << "==>\aGame draw";
+        cout << "==> Game draw";
     cin.ignore();
     cin.get();
     cout << "\n\n";
